@@ -1,16 +1,24 @@
 asset_id,type,origin,tool,source_or_reference,process_summary,iterations,work_minutes,main_issues,godot_import_notes,final_path
 
-blow,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"struggled to get the right sound","~","res://assets_modified/processed/audio/blow.wav"
-jump,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"none","~","res://assets_modified/processed/audio/jump.wav"
-laser,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"struggled to get the right sound","~","res://assets_modified/processed/audio/laser.wav"
-level,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"none","~","res://assets_modified/processed/audio/level.wav"
-ouch,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"none","~","res://assets_modified/processed/audio/ouch.wav"
-pop,sound,personal,ChipTone,"original","tried matching or creating relevant sound",~,~,"struggled to get the right sound","~","res://assets_modified/processed/audio/pop.wav"
-theme,sound,found,N/A,"Itch.io","N/A",0,0,"none","none","res://assets_modified/processed/audio/theme.wav"
+blow,sound,personal,ChipTone,"original","tried matching or creating relevant sound",2,15,"struggled to get the right sound","Import as WAV","res://assets_modified/processed/audio/blow.wav"
+jump,sound,personal,ChipTone,"original","tried matching or creating relevant sound",1,10,"none","Import as WAV","res://assets_modified/processed/audio/jump.wav"
+laser,sound,personal,ChipTone,"original","tried matching or creating relevant sound",3,20,"struggled to get the right sound","Import as WAV","res://assets_modified/processed/audio/laser.wav"
+level,sound,personal,ChipTone,"original","tried matching or creating relevant sound",1,8,"none","Import as WAV","res://assets_modified/processed/audio/level.wav"
+ouch,sound,personal,ChipTone,"original","tried matching or creating relevant sound",1,12,"none","Import as WAV","res://assets_modified/processed/audio/ouch.wav"
+pop,sound,personal,ChipTone,"original","tried matching or creating relevant sound",2,18,"struggled to get the right sound","Import as WAV","res://assets_modified/processed/audio/pop.wav"
+theme,sound,found,N/A,"Itch.io","N/A",0,0,"none","Loop on","res://assets_modified/processed/audio/theme.wav"
 
-dungeon-mode,font,found,N/A,"Itch.io","N/A",0,0,"none","none","res://assets_modified/processed/fonts/dungeonmode/font.ttf"
+dungeon-mode,font,found,N/A,"Itch.io","N/A",0,0,"none","Dynamic Font","res://assets_modified/processed/fonts/dungeonmode/font.ttf"
 
-player_sheet,sprite_sheet,personal,Aseprite,"original","simple generic figure, matched old frames",~,~,"keeping proportions consistent","~","res://assets_modified/processed/player-sheet.png"
-
-
-
+player_sheet,sprite_sheet,personal,Aseprite,"original","simple generic figure, matched old frames",3,60,"keeping proportions consistent","Filter off, Mipmaps off","res://assets_modified/processed/player-sheet.png"
+n_robot_sheet,sprite_sheet,personal,Aseprite,"original","simple generic robot, matched old frames",2,75,"firing animation","Filter off, Mipmaps off","res://assets_modified/processed/n_robot-sheet.png"
+a_robot_sheet,sprite_sheet,personal,Aseprite,"original","n_robot recoloured",2,15,"firing animation","Filter off, Mipmaps off","res://assets_modified/processed/a_robot-sheet.png"
+bg_sheet,background,personal,Aseprite,"original","simple generic background",2,20,"seamless tiling","Filter off","res://assets_modified/processed/bg-sheet.png"
+block_sheet,tileset,personal,Aseprite,"original","simple generic block",2,15,"none","Filter off","res://assets_modified/processed/block-sheet.png"
+bolt_sheet,sprite_sheet,personal,Aseprite,"original","recolored bolt, matched old frames",1,30,"glow effect","Filter off","res://assets_modified/processed/bolt-sheet.png"
+bubble_sheet,sprite_sheet,personal,Aseprite,"original","simple generic bubble, matched old frames",2,30,"transparency","Filter off","res://assets_modified/processed/bubble-sheet.png"
+burst_sheet,sprite_sheet,personal,Aseprite,"original","simple generic explosion, matched old frames",2,35,"consistent animation","Filter off","res://assets_modified/processed/burst-sheet.png"
+fruit_sheet,sprite_sheet,personal,Aseprite,"original","simple generic fruits, matched old frames",1,25,"none","Filter off","res://assets_modified/processed/fruit-sheet.png"
+icon_sheet,sprite_sheet,personal,Aseprite,"original","simple generic icons, matched old frames",1,20,"none","Filter off","res://assets_modified/processed/icon-sheet.png"
+pop_sheet,sprite_sheet,personal,Aseprite,"original","simple generic pop animation, matched old frames",2,50,"animation similarity was complex","Filter off","res://assets_modified/processed/pop-sheet.png"
+screen_sheet,sprite_sheet,personal,Aseprite,"original","simplified screens and add text in engine",2,50,"none","Filter off","res://assets_modified/processed/screen-sheet.png"

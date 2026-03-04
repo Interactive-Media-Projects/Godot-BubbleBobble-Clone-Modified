@@ -34,10 +34,10 @@ collision_mask = 13
 script = ExtResource("1_anwfy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(6, 5)
+position = Vector2(6, 10)
 sprite_frames = SubResource("SpriteFrames_ge0si")
 frame_progress = 0.7163125
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 4)
+position = Vector2(0, 9)
 shape = SubResource("CircleShape2D_5qta1")

@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://cawc1ibuvimcy"]
+
+[ext_resource type="Texture2D" uid="uid://8c825l3j0lou" path="res://assets_modified/processed/sprites/screen-sheet.png" id="1_5mame"]
+[ext_resource type="FontFile" uid="uid://di2k8lkmi5jks" path="res://assets_modified/processed/fonts/dungeonmode/font/dungeon-mode.ttf" id="2_ab0fm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yg3yf"]
+atlas = ExtResource("1_5mame")
+region = Rect2(0, 0, 800, 480)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ynbj8"]
+font = ExtResource("2_ab0fm")
+font_size = 100
+outline_size = 8
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_qh06c"]
+font = ExtResource("2_ab0fm")
+font_size = 32
+font_color = Color(0.40880403, 0.9999998, 0.3410296, 1)
+outline_size = 6
+outline_color = Color(0, 0, 0, 1)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Title" type="TextureRect" parent="."]
+layout_mode = 0
+texture = SubResource("AtlasTexture_yg3yf")
+
+[node name="Label" type="Label" parent="Title"]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 152.0
+offset_right = 740.0
+offset_bottom = 266.0
+text = "CAVERN"
+label_settings = SubResource("LabelSettings_ynbj8")
+horizontal_alignment = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 261.0
+offset_right = 556.0
+offset_bottom = 290.0
+text = "Press Start"
+label_settings = SubResource("LabelSettings_qh06c")
+horizontal_alignment = 1

@@ -1,0 +1,43 @@
+[gd_scene load_steps=7 format=3 uid="uid://b30thq4hqog0"]
+
+[ext_resource type="Script" uid="uid://bjfo5n7b0e7nf" path="res://scenes/entities/projectiles/Bolt.gd" id="1_anwfy"]
+[ext_resource type="Texture2D" uid="uid://be0j0c4v6rx00" path="res://assets_modified/processed/sprites/bolt-sheet.png" id="2_vynxm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anwfy"]
+atlas = ExtResource("2_vynxm")
+region = Rect2(0, 0, 50, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ge0si"]
+atlas = ExtResource("2_vynxm")
+region = Rect2(50, 0, 50, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ge0si"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anwfy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ge0si")
+}],
+"loop": true,
+"name": &"default",
+"speed": 8.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5qta1"]
+radius = 6.0
+
+[node name="Bolt" type="Area2D"]
+collision_layer = 2
+collision_mask = 13
+script = ExtResource("1_anwfy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(6, 5)
+sprite_frames = SubResource("SpriteFrames_ge0si")
+frame_progress = 0.7163125
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("CircleShape2D_5qta1")
